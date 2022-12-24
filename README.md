@@ -97,10 +97,10 @@ public class Dosen {
     }
 
     //Constructor class Dosen
-    public Dosen(String nama, String mengajar,Gender jenis){
+    public Dosen(String nama, String mengajar,Gender gender){
         this.nama = nama;
         this.mengajar = mengajar;
-        this.gender =jenis;
+        this.gender = gender;
     }
 }
 ```
